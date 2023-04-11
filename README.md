@@ -18,20 +18,23 @@ busIcon = L.MarkerOverlay.icon({
         icon: busIcon,
         badge: [{
             value: '2',
-            style: 'holo left bottom',
+            style: 'holo',
+            position: 'left bottom'
         },{
             value: '42',
-            style: 'left classic',
+            style: 'classic',
+            position: 'left'
         },{
             value: function() { return 1+2; },
             style: 'nova',
         },{
             value: 'X',
-            style: 'bottom material',
+            style: 'material',
+            position: 'bottom'
         },
         ],
     });
-var marker = L.marker(origin, { icon: busIcon }).addTo(mymap);
+var marker = L.marker([lat, lon], { icon: busIcon }).addTo(myMap);
 ```
 
 
