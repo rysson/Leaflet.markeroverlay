@@ -1,0 +1,126 @@
+
+.markeroverlay {
+	X-position: relative;
+	position: absolute;
+	X-width: 100%;
+	X-height:100%;
+}
+
+.markeroverlay-icon-box {
+	position: relative;
+	X-width: 100%;
+	X-height:100%;
+}
+
+.markeroverlay-overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+}
+
+.markeroverlay-badge {
+  position: absolute;
+  min-width: 1em;
+  min-height: 1.2em;
+  min-height: 1lh;
+  right: 0;
+  top: 0;
+  /* font-size: 1rem; */
+  padding: 0 2px;
+  margin-top: -5%;
+  margin-right: -5%;
+	text-align: center;
+  background: #abc8fb;
+  border: 1px solid #848c96;
+  border-radius: 20%;
+}
+
+
+.markeroverlay-badge-style-left {
+	left: 0;
+	right: auto;
+}
+
+.markeroverlay-badge-style-right {
+	left: auto;
+	right: 0;
+}
+
+.markeroverlay-badge-style-center {
+	left: 50%;
+	right: auto;
+	transform: translate(-50%, 0);
+}
+
+.markeroverlay-badge-style-top {
+	top: 0;
+	bottom: auto;
+}
+
+.markeroverlay-badge-style-bottom {
+	top: auto;
+	bottom: 0;
+}
+
+.markeroverlay-badge-style-middle {
+	top: 50%;
+	bottom: auto;
+	transform: translate(0, -50%);
+}
+
+.markeroverlay-badge-style-center.markeroverlay-badge-style-middle {
+	top: 50%;
+	left: 50%;
+	right: auto;
+	bottom: auto;
+	transform: translate(-50%, -50%);
+}
+
+
+.markeroverlay-badge-style-material {
+	color: black;
+	background: white;
+	color: black;
+  border: none;
+  border-radius: 100%;
+}
+
+.markeroverlay-badge-style-holo {
+	color: white;
+	background: #31312f;
+  border: 1px solid #32addf;
+  border-radius: 0;
+}
+
+.markeroverlay-badge-style-classic {
+	color: white;
+	background: #e73f33;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+
+.markeroverlay-badge-style-nova {
+	color: white;
+	background: #009bd2;
+  border: none;
+  border-radius: 25%;
+}
+
+
+.markeroverlay-badge-style-tiny {
+	font-size: 65%;
+}
+
+.markeroverlay-badge-style-small {
+	font-size: 80%;
+}
+
+.markeroverlay-badge-style-big {
+	font-size: 1.3em;
+}
+
+.markeroverlay-badge-style-large {
+	font-size: 1.6em;
+}
